@@ -1,3 +1,40 @@
-.test{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url(/fonts/Poppins-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraBold';
+    src: url(fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+
+body{
+    width: 1980px;
+    height: 6124px;
+}
+
+header{
+    width: 1833px;
+    height: 1000px;
+    float: right;
     background-color: pink;
+}
+
+.name{
+    font-size: 4rem;
+}
+
+.Poppins-Regular{
+    font-family: 'Poppins-Regular';
+}
+
+.Poppins-ExtreBold{
+    font-family: Poppins-ExtraBold;
 }
